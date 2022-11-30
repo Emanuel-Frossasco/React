@@ -1,0 +1,43 @@
+.navbar {
+    width: 100%;
+    margin: auto;
+    padding: 25px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar .container{
+    margin-left: 15%;
+}
+.navbar .container .navbar-collapse {
+    flex-grow: inherit;
+    margin-right: 5%;
+}
+.navbar .container .navbar-collapse .d-flex {
+    width: 400px;
+    align-items: center;
+}
+a.navbar-brand{
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    width: 100px;
+    color: aqua;
+}
+a.navbar-brand:hover{
+    color: aqua;
+}
+a.nav-link{
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    width: 100px;
+    color: aqua;
+}
+a.nav-link:hover{
+    color: aqua;
+}
+box-icon{
+    height: 25px;
+}
+
