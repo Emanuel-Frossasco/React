@@ -3,11 +3,17 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'boxicons'
 import BasicExample from './components/navbar';
+import ItemListContainer from './components/ItemListConteiner/itemListConteiner';
 
 function App() {
   return (
-    <div className="App">
+    <div className="Container">
+      <header>
         <BasicExample/>
+      </header>
+      <body>
+        <ItemListContainer/>
+      </body>
     </div>
   );
 }

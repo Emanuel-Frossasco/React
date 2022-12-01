@@ -8,14 +8,14 @@ import './styles.css'
 
 function BasicExample() {
   return (
-    <Navbar bg="dark" expand="lg">
+    <Navbar  expand="lg">
       <Container>
         <Navbar.Brand href="#home">Mi Tienda Online</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
             <Nav.Link href="#link">
-              <box-icon  type='solid' name='cart' color="aqua" animation="tada-hover"></box-icon>
+              <box-icon  type='solid' name='cart'  animation="tada-hover"></box-icon>
               <span className="nav-progressive-content">0</span>
             </Nav.Link>
             <NavDropdown title="Productos" id="basic-nav-dropdown">
