@@ -2,13 +2,13 @@ import React from "react";
 import "./itemListConteiner.css"
 
 
-const ItemListContainer =() => {
+const ItemListContainer = (props) => {
     return(
         <div className="item-list-container">
-            <div className="item-list-title"><h2 className="title">Bienvenido a Mi tienda Online</h2></div>
-            <div className="item-list-subtitle"> <h3 className="subtitle">Tienda Virtual </h3></div>
+            <div className="item-list-title"><h2 className="title">{props.titulo}</h2></div>
+            <div className="item-list-subtitle"> <h3 className="subtitle">{props.subtitulo}</h3></div>
             <div className="item-list-content-description">
-                <p>Encontraras los mejores productos del momento</p>
+                <p>{props.text}</p>
             </div>
         </div>
     )

@@ -1,7 +1,6 @@
 import React from 'react';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import 'boxicons'
 import BasicExample from './components/navbar';
 import ItemListContainer from './components/ItemListConteiner/itemListConteiner';
 
@@ -12,7 +11,7 @@ function App() {
         <BasicExample/>
       </header>
       <body>
-        <ItemListContainer/>
+        <ItemListContainer titulo='Bienvenido a mi tienda Online' subtitulo='Tienda Virtual' text='Encontra los mejores productos del momento'/>
       </body>
     </div>
   );

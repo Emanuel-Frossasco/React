@@ -3,8 +3,9 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
-import 'boxicons'
-import './styles.css'
+import 'boxicons';
+import './styles.css';
+import CartWidget from '../CartWidget/cartWidgetContainer';
 
 function BasicExample() {
   return (
@@ -15,8 +16,7 @@ function BasicExample() {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
             <Nav.Link href="#link">
-              <box-icon  type='solid' name='cart'  animation="tada-hover"></box-icon>
-              <span className="nav-progressive-content">0</span>
+              <CartWidget />
             </Nav.Link>
             <NavDropdown title="Productos" id="basic-nav-dropdown">
               <NavDropdown.Item href="#action/3.1">Categoria 1</NavDropdown.Item>
