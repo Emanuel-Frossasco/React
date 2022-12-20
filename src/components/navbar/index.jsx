@@ -1,4 +1,5 @@
 import React from 'react';
+import {useNavigate } from "react-router-dom";
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
@@ -9,6 +10,11 @@ import CartWidget from '../CartWidget/cartWidgetContainer';
 import { Link } from "react-router-dom";
 
 function BasicExample() {
+  const navigate = useNavigate();
+
+  const onHandlerSelectCategory = (product) => {
+    navigate(`/category/${product.category}`, { state: product });
+  };
   return (
     <Navbar  expand="lg">
       <Container>
@@ -22,7 +28,8 @@ function BasicExample() {
             </Nav.Link>
           </Link>
             <NavDropdown title="Productos" id="basic-nav-dropdown">
-              <Link to='/category/1' className='category'><NavDropdown.Item href="#action/3.1">Categoria 1</NavDropdown.Item></Link>
+              <Link to='/category/1' className='category'><NavDropdown.Item href="#action/3.1">Categoria 1</NavDropdown.Item>
+              </Link>
               <NavDropdown.Divider />
               <Link to='/category/2' className='category'><NavDropdown.Item href="#action/3.2">
                 Categoria 2

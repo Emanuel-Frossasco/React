@@ -10,10 +10,6 @@ import Router from './routes/Router'
 
 
 function App() {
-  /*const navigate = useNavigate();
-  const onHandlerSelect = (product) => {
-    navigate(`/product/${product.id}`, { state: product})
-  }*/
   return (
     <div className="MainContainer">
       <header>

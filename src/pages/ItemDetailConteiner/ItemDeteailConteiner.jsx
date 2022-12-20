@@ -17,7 +17,7 @@ const ItemDetailContainer = () => {
           />
         </div>
         <div className="container-desription-detail">
-          <div className="desription-detail">
+          <div className="description-detail">
             <div className="content-title">
               <h3 className="detail-title">{product.name}</h3>
             </div>

@@ -6,7 +6,7 @@
 
 .detail {
     font-family: "Poppins", sans-serif;
-    max-width: 70%;
+    max-width: 80%;
     height: 600px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -30,13 +30,15 @@
 .container-desription-detail {
     display: flex;
     align-items: center;
+    justify-content: center;
     height: 470px;
     margin: 20px;
     color: #212121;
     font-weight: 500;
 }
-.desription-detail {
+.description-detail {
     padding: 10px;
+    max-width: 400px;
 }
 .content-title {
     text-align: center;
