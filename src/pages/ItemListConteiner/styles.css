@@ -1,0 +1,9 @@
+.container-products{
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    min-width: 100%;
+    justify-content: center;
+    align-items: center;
+}

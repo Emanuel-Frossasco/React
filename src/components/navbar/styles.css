@@ -32,5 +32,12 @@ a.nav-link{
     width: 100px;
     color: #212121;
 }
+.link-logo {
+    text-decoration: none;
+    color: #000;
+}
+.category{
+    text-decoration: none;
+}
 
 
